@@ -4,7 +4,7 @@ sex=int(sex)
 age=input()
 age=int(age)
 
-if sex==1:
+if sex==0:
     if age>=19:
         print("MAN")
     else:
