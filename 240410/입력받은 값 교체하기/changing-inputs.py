@@ -1,0 +1,9 @@
+i=input()
+arr=i.split()
+temp=0
+a=int(arr[0])
+b=int(arr[1])
+temp=a
+a=b
+b=temp
+print(a,b)
