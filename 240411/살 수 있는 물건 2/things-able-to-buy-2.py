@@ -6,6 +6,6 @@ if i>=3000:
 elif 3000>i>=1000:
     print("mask")
 elif 1000>i>=500:
-    print("mask")
+    print("pen")
 else:
     print("no")
