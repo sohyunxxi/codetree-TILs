@@ -5,11 +5,11 @@ arr=i.split()
 a=int(arr[0])
 b=int(arr[1])
 
-i=input()
-arr=i.split()
+t=input()
+krr=t.split()
 
-c=int(arr[0])
-d=int(arr[1])
+c=int(krr[0])
+d=int(krr[1])
 
 if a>b and c>d:
     print(1)
