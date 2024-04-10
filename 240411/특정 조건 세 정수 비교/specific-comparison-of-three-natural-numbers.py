@@ -15,11 +15,11 @@ else:
     min=a
 
 if a==min:
-    print(1 end=" ")
+    print("1" end=" ")
 else:
-    print(0 end=" ")
+    print("0" end=" ")
 
 if a==b==c:
-    print(1 end=" ")
+    print("1" end=" ")
 else:
-    print(0 end=" ")
+    print("0" end=" ")
