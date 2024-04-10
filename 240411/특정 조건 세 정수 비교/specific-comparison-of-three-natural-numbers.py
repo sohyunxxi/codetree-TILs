@@ -5,21 +5,12 @@ a=int(arr[0])
 b=int(arr[1])
 c=int(arr[2])
 
-min=a
-
-if min>b:
-    min=b
-elif min>c:
-    min=c
+if a <= b and a <= c:
+	print("1", end=" ")
 else:
-    min=a
+	print("0", end=" ")
 
-if a==min:
-    print("1" end=" ")
+if a == b and b == c:
+	print("1")
 else:
-    print("0" end=" ")
-
-if a==b==c:
-    print("1" end=" ")
-else:
-    print("0" end=" ")
+	print("0")
