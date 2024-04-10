@@ -4,6 +4,12 @@ arr=i.split()
 a=int(arr[0])
 b=int(arr[1])
 
-print(1) if a<b else print(0)
+if a < b:
+	print("1", end=" ")
+else:
+	print("0", end=" ")
 
-print(1) if a==b else print(0)
+if a == b:
+	print("1")
+else:
+	print("0")
