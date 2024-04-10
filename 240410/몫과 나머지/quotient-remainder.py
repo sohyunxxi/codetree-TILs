@@ -1,0 +1,5 @@
+i=input()
+arr=i.split()
+a=int(arr[0])
+b=int(arr[1])
+print("%d...%d"%(int(a/b),a%b))
