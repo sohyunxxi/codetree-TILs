@@ -7,5 +7,5 @@ if a>b:
     c=a-b
     print(c)
 if a<=b:
-    c=a-b
+    c=b-a
     print(c)
