@@ -1,8 +1,13 @@
 n=int(input())
-
-if n==2:
-    print(28)
-elif (n%2==1 and n%9>0) or n==8:
-    print(31)
+if n%2==0:
+    if n==2:
+        print(28)
+    elif 2<n<8:
+        print(30)
+    elif 8<=n<=12:
+        print(31)
 else:
-    print(30)
+    if n<9:
+        print(31)
+    elif n==9 or n==11:
+        print(30)
