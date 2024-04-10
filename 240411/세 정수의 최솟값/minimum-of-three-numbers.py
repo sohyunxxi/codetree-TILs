@@ -5,15 +5,14 @@ a=int(arr[0])
 b=int(arr[1])
 c=int(arr[2])
 
-if a>b and b>c:
-    print(c)
-elif a>c and c>b:
-    print(b)
-elif b>a and a>c:
-    print(c)
-elif b>c and c>a:
+# a가 가장 작은 경우
+if a <= b and a <= c:
     print(a)
-elif c>a and a>b:
+    
+# b가 가장 작은 경우
+elif b <= a and b <= c:
     print(b)
+
+# c가 가장 작은 경우
 else:
-    print(a)
+    print(c)
