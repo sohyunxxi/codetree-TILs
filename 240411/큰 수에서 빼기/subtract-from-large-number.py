@@ -6,5 +6,6 @@ b=int(arr[1])
 if a>b:
     c=a-b
     print(c)
-c=b-a
-print(c)
+if a>=b:
+    c=a-b
+    print(c)
