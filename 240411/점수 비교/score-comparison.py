@@ -5,6 +5,7 @@ arr=i.split()
 a=int(arr[0])
 b=int(arr[1])
 
+i=input()
 arr=i.split()
 
 c=int(arr[0])
