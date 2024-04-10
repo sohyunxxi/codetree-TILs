@@ -9,7 +9,7 @@ if a%2==0:
 else:
     print("odd")
 
-if a%2==0:
+if b%2==0:
     print("even")
 else:
     print("odd")
